@@ -1,15 +1,15 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './ListaProfessores.css'
 import NavBar from "../components/NavBar";
-import '../components/NavBar.css'
-const VerticalNavbar = () => {
+import Cards from "../components/Cards";
+
+function ListaProfessores() {
     return (
-        <div className="verticalNav">
+        <div>
             <NavBar></NavBar>
-
+            <Cards></Cards>
         </div>
-    );
-};
 
-export default VerticalNavbar;
+    );
+}
+
+export default ListaProfessores;
